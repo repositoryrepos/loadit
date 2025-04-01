@@ -5,11 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> | Slacker Games</title>
     <link rel="icon" href="favicon/" />
+    <link rel="stylesheet" href="load.css">
   </head>
   <body>
 <img src="https://github.com/uslackrr/uslackrr/blob/main/profile.png?raw=true" width="150px" style="margin-top:-250px;"/>
     
 <embed src="">
+
+
+
+
+	<div class='wrap'>
+  <div class='angle'></div>
+  <div class='angle'></div>
+  <div class='angle'></div>
+  <div class='angle'></div>
+</div>
+<svg version='1.1' xmlns='http://www.w3.org/2000/svg'>
+  <defs>
+    <filter id='goo'>
+      <fegaussianblur in='SourceGraphic' result='blur' stddeviation='12'></fegaussianblur>
+      <fecolormatrix in='blur' mode='matrix' result='goo' values='1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9'></fecolormatrix>
+      <fecomposite in2='goo' in='SourceGraphic' operator='atop'></fecomposite>
+    </filter>
+  </defs>
+</svg>
+  <script type="text/javascript" src="script.js"></script>
+
+
+    
     <style>
       body {
   background-image: url("https://i.pinimg.com/originals/5d/c3/cc/5dc3ccae47d20dedb229267b811ff239.gif");
@@ -36,7 +60,6 @@ embed{
     </style>
   </body>
 </html>
-
 
 
 
